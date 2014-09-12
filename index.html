@@ -8,19 +8,10 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-<!--     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#dogfortunes">Dog Fortunes</a></li>
-        <li><a href="#collaboraction">Collaboraction</a></li>
-        <li><a href="#bobsbagels">Bob's Bagels</a></li>
-        <li><a href="#meetupculture">Meetup Culture</a></li>
-      </ul>
-    </nav> -->
 
     <div id="home">
       <div class="banner text-center">
+        <img class="profile-picture" src="img/me.jpg" alt="Devin Dreszer">
         <h1>DEVIN DRESZER</h1>
         <h3>Full-Stack Web Developer</h3>
         <ul>
@@ -45,75 +36,89 @@
             </a>
           </li>
         </ul>
-        <a href="#about">
+        <a href="#recent-projects">
           <div class="arrow-down">
           </div>
         </a>
       </div>
     </div>
 
-    <div id="about">
-      <p>I am a full-stack web developer interested in crafting simple, interactive experiences to share knowledge and information with a large audience. I left a successful career as a civil engineer to pursue a career in a more innovative industry and to develop more interactive projects that people enjoy.</p>
-      <ul>
-        <li>Ruby</li>
-        <li>Rails</li>
-        <li>Rspec</li>
-        <li>Rake</li>
-        <li>JavaScript</li>
-        <li>AngularJS</li>
-        <li>jQuery</li>
-        <li>D3.js</li>
-        <li>Ajax</li>
-        <li>PostgreSQL</li>
-        <li>External APIs</li>
-      </ul>
+    <div id="recent-projects" class="row">
+      <h1 class="text-center">RECENT PROJECTS</h1>
+      <div class="project row">
+        <div class="small-12 medium-6 columns">
+          <img class="project-image" src="img/dogfortunes.png" alt="dog fortunes">
+        </div>
+        <div class="small-12 medium-6 columns">
+            <h2>dog fortunes</h2>
+            <p>A rails app that allows users to browse through adoptable dogs and narrow their serch for the new best friends.</p>
+            <ul class="inline-list">
+              <li>Rails</li>
+              <li>Rspec</li>
+              <li>Foundation</li>
+              <li>PostgreSQL</li>
+              <li>Petfinder API</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="project row">
+        <div class="small-12 medium-6 columns">
+          <img class="project-image" src="img/collaboraction.png" alt="Collaboraction">
+        </div>
+        <div class="small-12 medium-6 columns">
+          <h2>Collaboraction</h2>
+          <p>Collaboraction is a Kickstarter like site that provides a place for educators from all over the world to find other educators to collaborate on class projects together. The site was created in 24 hours for the LearnLaunch Travel and Education Hackathon.</p>
+          <ul class="inline-list">
+            <li>Rails</li>
+            <li>Foundation</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project row">
+        <div class="small-12 medium-6 columns">
+          <img class="project-image" src="img/bobsbagels.png" alt="Bob's Bagels">
+        </div>
+        <div class="small-12 medium-6 columns">
+          <h2>Bob's Bagels</h2>
+          <p>Bob's Bagels is an e-commerce site for a bagel restaurant that allows users to order and customize bulk bagels and sandwiches.</p>
+          <ul class="inline-list">
+            <li>Rails</li>
+            <li>Rspec</li>
+            <li>jQuery</li>
+            <li>Ajax</li>
+            <li>Foundation</li>
+            <li>PostgreSQL</li>
+            <li>Stripe API</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project row">
+        <div class="small-12 medium-6 columns">
+          <img class="project-image" src="img/meetupculture.png" alt="Meetup Culture">
+        </div>
+        <div class="small-12 medium-6 columns">
+          <h2>Meetup Culture</h2>
+          <p>Meetup Culture is an angular app that allows users to visualize city culture through meetup.com groups.</p>
+          <ul class="inline-list">
+            <li>AngularJS</li>
+            <li>D3.js</li>
+            <li>Foundation</li>
+            <li>Rails API</li>
+            <li>Rake</li>
+            <li>PostgreSQL</li>
+            <li>Meetup API</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div id="dogfortunes">
-      <h1>dog fortunes</h1>
-      <p>A rails app that allows users to browse through adoptable dogs and narrow their serch for the new best friends.</p>
-      <ul>
-        <li>Rails</li>
-        <li>Rspec</li>
-        <li>PostgreSQL</li>
-        <li>Petfinder API</li>
-      </ul>
-    </div>
-
-    <div id="collaboraction">
-      <h1>Collaboraction</h1>
-      <p>Collaboraction is a Kickstarter like site that provides a place for educators from all over the world to find other educators to collaborate on class projects together. The site was created in 24 hours for the LearnLaunch Travel and Education Hackathon.</p>
-      <ul>
-        <li>Rails</li>
-        <li>PostgreSQL</li>
-      </ul>
-    </div>
-
-    <div id="bobsbagels">
-      <h1>Bob's Bagels</h1>
-      <p>Bob's Bagels is an e-commerce site for a bagel restaurant that allows users to order and customize bulk bagels and sandwiches.</p>
-      <ul>
-        <li>jQuery</li>
-        <li>Ajax</li>
-        <li>Rails</li>
-        <li>Rspec</li>
-        <li>PostgreSQL</li>
-        <li>Stripe API</li>
-      </ul>
-    </div>
-
-    <div id="meetupculture">
-      <h1>Meetup Culture</h1>
-      <p>Meetup Culture is an angular app that allows users to visualize city culture through meetup.com groups.</p>
-      <ul>
-        <li>AngularJS</li>
-        <li>D3.js</li>
-        <li>Rails API</li>
-        <li>Rake</li>
-        <li>PostgreSQL</li>
-        <li>Meetup API</li>
-      </ul>
-    </div>
+    <footer class="text-center">
+      <p>© 2014 Devin Dreszer</p>
+    </footer>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
