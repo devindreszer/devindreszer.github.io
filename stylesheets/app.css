@@ -10659,7 +10659,7 @@ h1 {
 
 /* line 12, ../scss/app.scss */
 #home {
-  background-color: #323232;
+  background-color: #222222;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -10751,7 +10751,7 @@ h1 {
   padding: 0.5em;
   margin: 0.3em;
   font-size: 0.75rem;
-  background-color: #323232;
+  background-color: #222222;
   color: white;
 }
 
@@ -10762,7 +10762,7 @@ h1 {
 
 /* line 111, ../scss/app.scss */
 footer {
-  background-color: #323232;
+  background-color: #222222;
   margin: 0;
   padding: 1.5em 0 0.5em 0;
 }
