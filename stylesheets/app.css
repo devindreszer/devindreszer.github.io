@@ -10736,19 +10736,37 @@ h1 {
 .project .project-image {
   box-shadow: 1px 1px 1px 1px #C8C8C8;
 }
+/* line 88, ../scss/app.scss */
+.project p {
+  color: #222222;
+}
+/* line 92, ../scss/app.scss */
+.project .technologies-used {
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 96, ../scss/app.scss */
+.project .technologies-used li {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.3em;
+  font-size: 0.75rem;
+  background-color: #323232;
+  color: white;
+}
 
-/* line 89, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .project:hover {
   border: 1px solid #C8C8C8;
 }
 
-/* line 93, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 footer {
   background-color: #323232;
   margin: 0;
-  padding: 1em 0 0.5em 0;
+  padding: 1.5em 0 0.5em 0;
 }
-/* line 98, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 footer p {
   color: white;
 }

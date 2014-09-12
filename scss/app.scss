@@ -84,6 +84,24 @@ h1 {
   .project-image {
     box-shadow: 1px 1px 1px 1px #C8C8C8;
   }
+
+  p {
+    color: $jet;
+  }
+
+  .technologies-used {
+    list-style-type: none;
+    margin-left: 0;
+
+    li {
+      display: inline-block;
+      padding: 0.5em;
+      margin: 0.3em;
+      font-size: rem-calc(12);
+      background-color: $secondary-color;
+      color: white;
+    }
+  }
 }
 
 .project:hover {
@@ -93,7 +111,7 @@ h1 {
 footer {
   background-color: $secondary-color;
   margin: 0;
-  padding: 1em 0 0.5em 0;
+  padding: 1.5em 0 0.5em 0;
 
   p {
     color: white;
